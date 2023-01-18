@@ -68,7 +68,7 @@ main {
 
 .cards {
     display: flex;
-    width: 70%;
+    width: 71%;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 75px;
