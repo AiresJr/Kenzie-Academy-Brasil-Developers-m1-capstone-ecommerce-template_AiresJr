@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Kz Style</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kz Style</h1>
+        <nav class="menu">
+            <span class="todos">Todos</span>
+            <span class="acessorios">Acessórios</span>
+            <span class="camisetas">Camisetas</span>
+        </nav>
+    </header>
+    <main>
+        <div class="cards">
+
+        </div>
+        <section>
+            <div class="sideBox">
+                <div class="input_pesquisa">
+                    <input type="text" name="pesquisa" placeholder="Digite aqui sua pesquisa">
+                </div>
+                <button class="btn_pesquisa" type="submit">Pesquisar</button>
+            </div>
+            <div class="carroCompras">
+                <span class="carroCompra">Carrinho de Compras</span>
+            </div>
+            <div class="infoCarro">
+
+
+                <ul class="listaCarro"></ul>
+
+                
+            </div>
+            <div>
+                <div class="valorTotal">
+                    <div class="valor">
+                        <span>Quantidade:</span>
+                        <span id="itemQuantidade">0</span>
+                    </div>
+
+                    <div class="total">
+                        <span>Total:</span>
+                        <span class="totalValor">R$00,00</span>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

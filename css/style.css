@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px #000;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+}
+
+h1 {
+    font-weight: bolder;
+    padding: 6px 15px 15px 65px;
+    font-size: 27px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.todos:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.acessorios:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.camisetas:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 75px;
+
+}
+
+li {
+    width: 230px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+
+li:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.cards ul {
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+.imgVitrine {
+    background-color: rgb(216, 214, 214);
+    min-width: 230px;
+    object-fit: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 470px;
+    margin-right: 0;
+    
+
+}
+
+.sideBox {
+   
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+
+.carroCompras {
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+
+.tag1 {
+    background-color: #37268C;
+    color: white;
+    width: 75px;
+    height: 18px;
+    padding: 2px 12px 8px 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.product {
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+p{
+    line-height: 23px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.price{
+    color: blue;
+    font-weight: bold;
+}
+.btn_carro{
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+}
+.btn_carro:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+input{
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(247, 242, 242);
+}
+
+input:focus{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    
+}
+
+.input_pesquisa{
+  height: 25px;
+}
+
+.btn_pesquisa{
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+
+.btn_pesquisa:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+
+}
+
+.carroCompras{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    height: 15%;
+    width: 90%;
+}
+
+.infoCarro{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    background-color: rgba(235, 223, 223, 0.983);
+}
+
+
+
+.carroInfo{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.itemInfo{
+    font-size: 17px;
+
+}
+
+.valorTotal{
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+    height: 25%;
+    background-color: rgb(60, 59, 59);
+    padding: 3px 15px 26px 15px;
+}
+
+.valor{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45%;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.total{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45%;
+    color: white;
+    font-weight: 500;
+
+}
+
+.liItem{
+    display: flex;
+    width: 93%;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+.liCarro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+}
+
+
+.imgItem{
+    width: 80px;
+       
+}
+
+.spanItem{
+    font-size: 15px;
+}
+
+.spanValor{
+    font-size: 10px;
+    font-weight: bolder;
+
+}
+
+.productButton{
+    
+    font-weight: bold;
+    border: none;
+    font-size: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.productButton:hover{
+    content: '';
+    transition: 1s;
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.listaCarro{
+    height: 85%;
+    width: 100%;
+    overflow-y: auto;
+}
