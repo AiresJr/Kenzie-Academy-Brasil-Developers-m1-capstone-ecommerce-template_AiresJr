@@ -68,7 +68,7 @@ main {
 
 .cards {
     display: flex;
-    width: 71%;
+    width: 70%;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 75px;
@@ -249,7 +249,7 @@ input:focus{
 .valorTotal{
     display: flex;
     flex-direction: column;
-    width: 81%;
+    width: 82.5%;
     height: 25%;
     background-color: rgb(60, 59, 59);
     padding: 3px 15px 26px 15px;
